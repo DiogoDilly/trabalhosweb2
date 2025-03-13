@@ -1,0 +1,16 @@
+h1 {
+  width: 170;
+  height: 23;
+  top: 144px;
+  left: 160px;
+  text-align: center;
+}
+.container {
+  width: 640px;
+  height: 370px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  background-color: rgba(243, 242, 242, 1);
+  margin: 0 auto;
+}
