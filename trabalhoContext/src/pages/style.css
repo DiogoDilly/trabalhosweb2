@@ -1,0 +1,41 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  gap: 24px;
+}
+
+.container,
+.link-btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.link-btns {
+  gap: 16px;
+}
+.social {
+  display: flex;
+  gap: 16px;
+  cursor: pointer;
+}
+.link-btns button {
+  border: none;
+  opacity: 85%;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.foto {
+  height: 112px;
+  width: 112px;
+  border-radius: 50%;
+}
