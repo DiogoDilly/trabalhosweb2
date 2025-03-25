@@ -155,3 +155,40 @@ padding-top: 3rem;
 }
 
 }
+
+@media screen and (max-width: 1024px){
+
+  .container{
+  
+  height: 22.575rem;
+  
+  }
+  .logo{
+    width: 100%;
+    max-width: 28.35rem;
+  }
+  .products{
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2,2fr);
+  grid-row-gap: 10.89375rem;
+  }
+  
+  .about{
+  flex-direction: column;
+  
+  }
+  .about img{
+  width: 42.91875rem;
+  height: 52.5rem;
+  }
+  .description{
+    width: 42.91875rem;
+  
+  
+  }
+  .title{
+  padding-top: 6.1 drem;
+  
+  }
+  
+  }
